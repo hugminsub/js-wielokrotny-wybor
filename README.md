@@ -1,1 +1,1 @@
-# js-wielokrotny-wybor
+::js-wielokrotny-wybor
