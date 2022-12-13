@@ -1,11 +1,10 @@
- function z(){
-let a=document.getElementById("wynik");
-if((a.value=="A")||(a.value=="a"))
-{
-document.getElementById('err').innerHTML= alert("dobrze");
+document.getElementByid("check").addEventListener("click", function(){
+let odpowiedz = document.getElementById("wynik").value
+if (odpowiedz.toLowerCase() == prawidlowaOdpowiedz){
+ alert("Dobrze!")
 }
-else
-{
-document.getElementById('err').innerHTML= alert("źle");
-}
-}
+ else
+ {
+  alert("Spróbuj jeszcze raz")
+ }
+})
