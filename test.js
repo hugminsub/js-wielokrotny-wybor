@@ -1,3 +1,5 @@
+const prawidlowaOdpowiedz = "b"
+
 document.getElementByid("check").addEventListener("click", function(){
 let odpowiedz = document.getElementById("wynik").value
 if (odpowiedz.toLowerCase() == prawidlowaOdpowiedz){
